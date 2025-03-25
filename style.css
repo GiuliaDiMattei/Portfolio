@@ -1,0 +1,70 @@
+
+            .inizio {display: flex; align-items: left; justify-content: left;}
+
+            img.fotoprofilo {width: 220px; height: 220px; border-style: groove; border-radius: 50%; border-color: rgb(206, 162, 226); border-width: medium; float: left; margin-left: 15px; margin-bottom: 20px;}
+
+            .nome {color: whitesmoke; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-weight: bolder; font-size: 30px; margin-bottom: 10px;}
+
+            div.nomeprofessione, div.fotop {vertical-align: auto; margin-right: 15px; margin-top: auto; margin-bottom: auto; padding-bottom: 20px; padding-top: 20px;}
+
+            .work {color: rgb(206, 162, 226); font-family: 'Verdana', 'Tahoma', sans-serif; font-weight: bolder; font-size: 22px;}
+
+            .contenitore-bottoni {background-image: url("/home/svilupposoftware2025/share/dimattei-www/contenuti/purplecity.jpg"); border-style: groove; border-color: rgb(206, 162, 226); border-radius: 12px; padding: 15px; text-align: center; font-family: Verdana, Tahoma, sans-serif; font-size: 10px; font-weight: bolder; margin: 2px;}
+            .button1 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button1:hover {background-color: rgb(242, 188, 247);}
+            .button1:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button2 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button2:hover {background-color: rgb(242, 188, 247);}
+            .button2:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button3 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button3:hover {background-color: rgb(242, 188, 247);}
+            .button3:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button4 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button4:hover {background-color: rgb(242, 188, 247);}
+            .button4:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button5 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button5:hover {background-color: rgb(242, 188, 247);}
+            .button5:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button6 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button6:hover {background-color: rgb(242, 188, 247);}
+            .button6:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button7 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button7:hover {background-color: rgb(242, 188, 247);}
+            .button7:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .paginaweb {background-image: url("/home/svilupposoftware2025/share/dimattei-www/contenuti/purplecity.jpg"); background-size: cover; background-position: 100%; background-repeat: no-repeat; border-style: groove; border-color: rgb(206, 162, 226); border-radius: 1%;}
+
+            .welcome {font-size: 35px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; color: rgb(121, 93, 138); margin: 0 0 0 5; text-align: center;}
+
+            .sottobottoni {margin: 0 0 0 5; margin-left: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; 
+            color: rgb(65, 63, 63);}
+
+            body {background-image: url("/home/svilupposoftware2025/share/dimattei-www/contenuti/softpurple.jpg"); background-attachment: fixed; background-size: 1700px; background-repeat: no-repeat;}
+
+            .footer {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; color: rgb(206, 162, 226);}
+
+            img.akita {border-width: medium; border-style: groove; border-radius: 2%; border-color: rgb(206, 192, 248);}
+
+            .flex {display: flex; gap:60px; justify-content: center; padding-left: 50px; padding-right: 50px; margin-bottom: 60px; margin-top: 30px;}
+
+            .immagini {margin-top: 20px; display: flex; flex-direction: column; gap:10px;}
+
+            .flags {display: flex; justify-content: right; margin:5px; gap: 3px;}
+            .flagenbutton {width: 25px; height: 25px; background-image: url("/home/svilupposoftware2025/share/dimattei-www/contenuti/flagen.png"); background-size: cover; border-radius: 30%; box-shadow: 0 2px rgb(206, 162, 226); transform: translateY(2px); cursor: pointer;}
+            .flagitabutton {width: 25px; height: 25px; background-image: url("/home/svilupposoftware2025/share/dimattei-www/contenuti/flagita.png"); background-size: cover; border-radius: 30%; box-shadow: 0 2px rgb(206, 162, 226); transform: translateY(2px); cursor: pointer;}
+            .flagjpbutton {width: 25px; height: 25px; background-image: url("/home/svilupposoftware2025/share/dimattei-www/contenuti/flagjp.png"); background-size: cover; border-radius: 30%; box-shadow: 0 2px rgb(206, 162, 226); transform: translateY(2px); cursor: pointer;}
+
+            .searchbox {background: #fff; height: 20px; border-radius: 30px; transition: 0.8s; display: flex; cursor: pointer; box-shadow: 4px 4px 6px 0 rgba(255,255,255,.3), -4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255,255,255,.2), inset 4px 4px 6px 0 rgba(0, 0, 0, .2); padding: 8px; margin-right: 8px;}
+            .searchbox:hover > .search-input {width: 200px;}
+            .searchbox .search-input {background: transparent; border: none; outline: none; width: 0px; font-weight: 500; font-size: 16px; transition: 0.8s;}
+            .searchbox .search-btn .fas {color: rgb(206, 162, 226);}
+            @keyframes hoverShake {0% {transform: skew(0deg,0deg);} 25% {transform: skew(5deg, 5deg);} 75% {transform: skew(-5deg, -5deg);} 100% {transform: skew(0deg,0deg);}}
+            .searchbox:hover {animation: hoverShake 0.40s linear 3;}
+
+            /*https://codepen.io/yuhomyan/pen/XWdYJdv*/
