@@ -1,0 +1,147 @@
+           /* Inizio */
+           .inizio {display: flex; align-items: left; justify-content: left;}
+
+           /* Foto profilo */
+            img.fotoprofilo {width: 220px; height: 220px; border-style: groove; border-radius: 50%; border-color: rgb(206, 162, 226); border-width: medium; float: left; margin-left: 15px; margin-bottom: 20px;}
+
+            /* Nome */
+            .nome {color: whitesmoke; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-weight: bolder; font-size: 30px; margin-bottom: 10px;}
+
+            /* Professione */
+            div.nomeprofessione, div.fotop {vertical-align: auto; margin-right: 15px; margin-top: auto; margin-bottom: auto; padding-bottom: 20px; padding-top: 20px;}
+
+            .work {color: rgb(206, 162, 226); font-family: 'Verdana', 'Tahoma', sans-serif; font-weight: bolder; font-size: 25px;}
+
+            /* Bottoni */
+            .contenitore-bottoni {background-image: url("./contenuti/purplecity.jpg"); border-style: groove; border-color: rgb(206, 162, 226); border-radius: 12px; padding: 15px; text-align: center; font-family: Verdana, Tahoma, sans-serif; font-size: 10px; font-weight: bolder; margin: 2px;}
+            
+            .button1 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button1:hover {background-color: rgb(242, 188, 247);}
+            .button1:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button2 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button2:hover {background-color: rgb(242, 188, 247);}
+            .button2:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button3 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button3:hover {background-color: rgb(242, 188, 247);}
+            .button3:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button4 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button4:hover {background-color: rgb(242, 188, 247);}
+            .button4:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button5 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button5:hover {background-color: rgb(242, 188, 247);}
+            .button5:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button6 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button6:hover {background-color: rgb(242, 188, 247);}
+            .button6:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            .button7 {background-color: rgb(206, 192, 248); color: whitesmoke; border-radius: 30%; cursor: pointer; width: 125px; max-width: 125px;}
+            .button7:hover {background-color: rgb(242, 188, 247);}
+            .button7:active {background-color: rgb(215, 167, 219); box-shadow: 0 3px #fdfdfd; transform: translateY(4px);}
+
+            /* Contenuti */
+            .paginaweb {background-image: url("./contenuti/purplecity.jpg"); background-size: cover; background-position: 100%; background-repeat: no-repeat; border-style: groove; border-color: rgb(206, 162, 226); border-radius: 1%;}
+
+            .welcome {font-size: 35px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; color: rgb(121, 93, 138); margin: 0 0 0 5; text-align: center;}
+
+            .sottobottoni {margin: 0 0 0 5; margin-left: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; color: rgb(65, 63, 63); font-size: 20px;}
+
+            body {background-image: url("./contenuti/softpurple.jpg"); background-attachment: fixed; background-size: 1700px; background-repeat: no-repeat;}
+
+            /* Footer p.1 */
+            .footer {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; color: rgb(121, 93, 138);}
+
+            /* Immagini Contenuti */
+            img.akita {border-width: medium; border-style: groove; border-radius: 2%; border-color: rgb(206, 192, 248);}
+
+            .flex {display: flex; gap:60px; justify-content: center; padding-left: 50px; padding-right: 50px; margin-bottom: 60px; margin-top: 30px;}
+
+            .immagini {margin-top: 20px; display: flex; flex-direction: column; gap:10px;}
+
+            /* Flags */
+            .flags {display: flex; justify-content: right; margin:5px; gap: 3px;}
+            .flagenbutton {width: 25px; height: 25px; background-image: url("./contenuti/flagen.png"); background-size: cover; border-radius: 30%; box-shadow: 0 2px rgb(206, 162, 226); transform: translateY(2px); cursor: pointer;}
+            .flagitabutton {width: 25px; height: 25px; background-image: url("./contenuti/flagita.png"); background-size: cover; border-radius: 30%; box-shadow: 0 2px rgb(206, 162, 226); transform: translateY(2px); cursor: pointer;}
+            .flagjpbutton {width: 25px; height: 25px; background-image: url("./contenuti/flagjp.png"); background-size: cover; border-radius: 30%; box-shadow: 0 2px rgb(206, 162, 226); transform: translateY(2px); cursor: pointer;}
+
+            /* Searchbar */
+            .searchbox {background: #fff; height: 20px; border-radius: 30px; transition: 1s; display: flex; cursor: pointer; box-shadow: 4px 4px 6px 0 rgba(255,255,255,.3), -4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255,255,255,.2), inset 4px 4px 6px 0 rgba(0, 0, 0, .2); padding: 8px; margin-right: 8px; margin-top: 5px;}
+            .searchbox:hover > .search-input {width: 200px;}
+            .searchbox .search-input {background: transparent; border: none; outline: none; width: 0px; font-weight: 500; font-size: 16px; transition: 1s; color: rgb(206, 192, 248);}
+            .searchbox .search-btn .fas {color: rgb(206, 162, 226);}
+            @keyframes hoverShake {0% {transform: skew(0deg,0deg);} 25% {transform: skew(5deg, 5deg);} 75% {transform: skew(-5deg, -5deg);} 100% {transform: skew(0deg,0deg);}}
+            .searchbox:hover {animation: hoverShake 0.45s linear 3;}
+            /*https://codepen.io/yuhomyan/pen/XWdYJdv*/
+
+            /* CSS Contacts */
+            .contact-form {height: 100vh; display: flex; justify-content: space-evenly; margin-top: 100px;}
+            .contact-left {display: flex; flex-direction: column; align-items: start; gap: 20px;}
+            .contact-left-title {color: rgb(121, 93, 138); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-weight: bolder; font-size: 30px;}
+            .contact-inputs {width: 400px; height: 50px; border: none; outline: none; padding-left: 30px; font-weight: 500px; color:rgb(65, 63, 63); border-radius: 50px;}
+            .contact-inputs:focus {border: 2px solid rgb(206, 192, 248);}
+            .contact-inputs::placeholder {color: rgb(65, 63, 63);}
+            .contact-left textarea { height: 140px; padding-top: 15px; border-radius: 20px;}
+            .contact-right img {margin-top: 50px;}
+            @media (max-width:800px) {.contact-inputs {width: 80vw;} .contact-right {display: none;}}
+            /*https://www.youtube.com/watch?v=-HeadgoqJ7A*/
+
+            /* CSS: Games */ 
+            .portraitgames {max-width: 700px; max-height: 700px; justify-content: center;}
+            .portraitmods {max-width: 700px; max-height: 700px; justify-content: center;}
+
+            .column {width: 100%; padding: 5px;}
+
+            .row {display: flex; gap: 30px; text-align: center;} 
+
+            .descrizione {color: rgb(65, 63, 63); font-family: Verdana, Tahoma, sans-serif; font-size: 16px; text-align: center;}
+
+            h3 {color: rgb(121, 93, 138); font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 25px; text-align: center;}
+            h4 {color: rgb(65, 63, 63); font-family: Verdana, Tahoma, sans-serif; font-size: 17px; text-align: center;}
+
+            /* Label Softwares */ 
+            .label {color: whitesmoke; padding: 7px; font-family: Verdana, Tahoma, sans-serif;}
+            .unity {background-color: rgb(184, 122, 241); margin-top: 15px;}
+            .cpp {background-color: rgb(231, 61, 61); margin-top: 15px;}
+
+            /* CSS AboutMe || TRIAL - NOT THE FINAL VERSION */
+            /* .caroselloaboutme {margin: 0px; display: grid; grid-template-rows: 100px 100px; grid-template-columns: 1fr 30px 30px 30px 1fr; align-items: center; justify-items: center; font-family: Verdana, Tahoma, sans-serif;}
+            img.carosello {width: 100px; height: 100px;}
+            .nameimg {margin-bottom: 2px;}
+            .titleimm {font-style: italic; margin-top: 2px;}
+            main#carousel {grid-row: 1 / 2; grid-column: 1 / 8; width: 100vw; height: 300px; display: flex; align-items: center; justify-content: center; overflow: hidden; transform-style: preserve-3d; perspective: 600px;
+                          --items: 3; --middle: 2; position: 1; pointer-events: none;}
+            .item {text-align: center; padding: 20px; border: 3px; width: 300px; height: 250px;
+                          --r: calc(var(--position) - var(--offset)); --abs: max(calc(var(--r) * -1), var(--r)); transition: all 0.25s linear; transform: rotateY(calc(-10deg * var(--r))) translateY(calc(-300px * var(--r))); z-index: calc((var(--position) - var(--abs)));}
+            .item:nth-of-type(1) {--offset: 1;}
+            .item:nth-of-type(2) {--offset: 2;}
+            .item:nth-of-type(3) {--offset: 3;}
+            input:nth-of-type(1) {grid-column: 2 / 3; grid-row: 2 / 3;}
+            input:nth-of-type(2) {grid-column: 3 / 4; grid-row: 2 / 3;}
+            input:nth-of-type(3) {grid-column: 4 / 5; grid-row: 2 / 3;}
+            input:nth-of-type(1):checked ~ main#carousel {--position: 1;}
+            input:nth-of-type(2):checked ~ main#carousel {--position: 2;}
+            input:nth-of-type(3):checked ~ main#carousel {--position: 3;} */
+
+            /* Footer p.2 */
+            .footer {text-align: center;}
+
+            /* Link */
+            a {color: rgb(121, 93, 138); font-family: Verdana, Tahoma, sans-serif; font-size: medium;}
+
+            /* Mobile */
+            @media (max-width: 700px) { 
+                .flex {flex-wrap: wrap;}
+                img.fotoprofilo {width: 150px; height: 150px; border-style: groove; border-radius: 50%; border-color: rgb(206, 162, 226); border-width: medium; float: left; margin-left: 15px; margin-bottom: 20px;}
+                img.akita {width: 300px; height: 124px; border-width: medium; border-style: groove; border-radius: 2%; border-color: rgb(206, 192, 248);}
+            }
+
+            /* Tablet */
+            @media (max-width: 1000px){
+                .flex {flex-wrap: wrap;}
+                img.fotoprofilo {width: 150px; height: 150px; border-style: groove; border-radius: 50%; border-color: rgb(206, 162, 226); border-width: medium; float: left; margin-left: 15px; margin-bottom: 20px;}
+                img.akita {width: 600px; height: 424px; border-width: medium; border-style: groove; border-radius: 2%; border-color: rgb(206, 192, 248);}
+            }
